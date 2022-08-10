@@ -1,0 +1,4 @@
+#Ingore files of mobiel and desktop tempalates
+
+static/desktopTemplate.png
+static/mobileTemplate.png
