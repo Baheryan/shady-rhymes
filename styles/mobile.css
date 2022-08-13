@@ -1,0 +1,168 @@
+body {
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header__logo__container {
+  margin-left: 20px;
+}
+
+.header__nav__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  height: 406px;
+  width: 100%;
+  justify-content: space-evenly;
+  left: -100%;
+  transition: left 0.5s ease-in-out;
+}
+
+.header__nav__container.active {
+  left: 0;
+}
+
+.header__buttons__container {
+  margin-right: 20px;
+}
+
+.header__link {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  color: #F79489;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__link:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.header__link:nth-child(1):hover .header__chevron {
+  transform: rotate(180deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.header__chevron {
+  margin-left: 3px;
+  width: 12px;
+  transform: rotate(-180deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.header__buttons__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 59px;
+}
+
+.header__basketButton__container {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.basket__circle {
+  width: 8px;
+  height: 8px;
+  background-color: #F79489;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  border-radius: 50px;
+}
+
+.header__buttonMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__buttonMenu::before {
+  content: "";
+  width: 22px;
+  height: 2.4px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 5px;
+  right: 1px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.header__buttonMenu::after {
+  content: "";
+  width: 22px;
+  height: 2.4px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 5px;
+  right: 1px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.header__buttonMenu span {
+  width: 22px;
+  height: 2.4px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.header__buttonMenu.active span {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.header__buttonMenu.active::after {
+  transform: rotate(-44deg);
+  bottom: 11px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.header__buttonMenu.active::before {
+  transform: rotate(44deg);
+  top: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.header__background {
+  background: url(../static/sofaAndWases.svg); 
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  z-index: -50;
+  height: 406px;
+  width: 100%;
+}
