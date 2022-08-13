@@ -1,0 +1,36 @@
+@media(min-width: 740px) {
+    .header__container {
+        padding-top: 41px;
+        justify-content: space-between;
+    }
+
+    .header__nav__container {
+        position: relative;
+        left: 0;
+        flex-direction: row;
+        background: none;
+        height: auto;
+        justify-content: center;
+        transition: none;
+    }
+
+    .header__link:nth-child(1) {
+        margin-right: 36px;
+    }
+
+    .header__link:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .header__link {
+        margin-right: 51px;
+    }
+
+    .header__buttonMenu {
+        display: none;
+    }
+
+    .header__basketButton__container {
+        width: 100%;
+    }
+}
