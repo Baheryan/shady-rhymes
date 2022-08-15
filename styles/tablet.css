@@ -11,7 +11,6 @@
         background: none;
         height: auto;
         justify-content: center;
-        transition: none;
     }
 
     .header__link:nth-child(1) {
