@@ -26,7 +26,6 @@ body {
   width: 100%;
   justify-content: space-evenly;
   left: -100%;
-  transition: left 0.5s ease-in-out;
 }
 
 .header__nav__container.active {
