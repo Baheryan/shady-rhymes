@@ -32,4 +32,8 @@
     .header__basketButton__container {
         width: 100%;
     }
+
+    .basket__circle {
+        right: 11px;
+    }
 }
