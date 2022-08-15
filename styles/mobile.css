@@ -165,3 +165,9 @@ body {
   height: 406px;
   width: 100%;
 }
+
+@media(max-width: 739px) {
+  .header__nav__container {
+    transition: left 0.5s ease-in-out;
+  }
+}
