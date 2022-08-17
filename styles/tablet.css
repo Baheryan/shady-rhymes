@@ -36,4 +36,8 @@
     .basket__circle {
         right: 11px;
     }
+
+    .header__background {
+        max-height: 1000px;
+    }
 }
