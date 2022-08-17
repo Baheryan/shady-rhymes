@@ -156,7 +156,7 @@ body {
 }
 
 .header__background {
-  background: url(../static/sofaAndWases.svg); 
+  background: url(../static/sofaAndWases.svg);
   background-size: cover;
   background-position: center;
   position: absolute;
