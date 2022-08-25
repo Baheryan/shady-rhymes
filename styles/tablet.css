@@ -8,6 +8,10 @@
         justify-content: space-between;
     }
 
+    .header__logo__img  {
+        width: 115px;
+    }
+
     .header__nav__container {
         position: relative;
         left: 0;
