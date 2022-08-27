@@ -250,3 +250,13 @@ body {
   background-color: #F79489;
   transition: background-color 0.4s ease-in-out;
 }
+
+.banner__background__container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  max-height: 406px;
+}
