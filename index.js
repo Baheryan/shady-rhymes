@@ -7,3 +7,30 @@ buttonMenu.addEventListener("click", element => {
     buttonMenu.classList.toggle("active");
     headerNav.classList.toggle("active");
 });
+
+//banner background slider 
+
+const sliderButton = document.querySelectorAll(".banner__slider-button");
+const sliderImg = document.querySelectorAll(".background__img");
+
+var currentSlide;
+
+const sliderNav = function(element) {
+    sliderImg.forEach((sliderImg) => {
+        sliderImg.classList.remove("current");
+
+        sliderButton.forEach((sliderButton) => {
+            sliderButton.classList.remove("active");
+        });
+    });
+
+    sliderButton[element].classList.add("current");
+    sliderImg[element].classList.add("current");
+};
+
+sliderButton.forEach((sliderButton, i) => {
+    sliderButton.addEventListener('click', () => {
+        sliderNav(i);
+        currentSlide = i;
+    });
+});
