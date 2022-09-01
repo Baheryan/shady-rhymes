@@ -273,3 +273,7 @@ body {
 .background__img.current {
   opacity: 1;
 }
+
+.background__img:first-child {
+  opacity: 1;
+}
