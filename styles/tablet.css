@@ -98,4 +98,51 @@
         width: 10px;
         height: 10px;
     }
+
+    .service__container {
+        margin-top: 156px;
+        padding: 0 80px;
+    }
+    
+    .service__heading {
+        margin: 0;
+        font-size: 36px;
+        display: initial;
+    }
+    
+    .service__offer__container {
+        margin-top: 32px;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .service__offer {
+        padding-top: 15px;
+        padding-left: 18px;
+        padding-right: 5px;
+        padding-bottom: 25px;
+    }
+    
+    .service__offer__img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .service__offer__heading {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 17px;
+    }
+    
+    .service__offer__text {
+        margin-top: 17px;
+        margin-bottom: 27px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+    .service__offer__link {
+        font-size: 18px;
+    }
 }
