@@ -99,6 +99,10 @@
         height: 10px;
     }
 
+    .banner__background__container img {
+        height: 1000px;
+    }
+
     .service__container {
         margin-top: 156px;
         padding: 0 80px;
