@@ -1,0 +1,10 @@
+@media (min-width: 1480px) {
+    .service__offer__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .service__offer {
+        width: 400px;
+    }
+}
