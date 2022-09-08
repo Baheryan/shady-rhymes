@@ -3,6 +3,10 @@
         font-size: 18px;
     }
 
+    .heading {
+        font-size: 36px ;
+    }
+
     .header__container {
         padding-top: 41px;
         justify-content: space-between;
