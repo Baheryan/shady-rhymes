@@ -34,3 +34,15 @@ sliderButton.forEach((sliderButton, i) => {
         currentSlide = i;
     });
 });
+
+//categories button animation 
+
+const categoriesButton = document.querySelectorAll(".section__button-container");
+const sectionParagraph = document.querySelectorAll(".section__paragraph");
+
+categoriesButton.forEach((categoriesButton, i) => {
+    categoriesButton.addEventListener('click', () => {
+        categoriesButton.classList.toggle("active");
+        sectionParagraph[i].classList.toggle("active");
+    });
+});
