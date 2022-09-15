@@ -429,6 +429,7 @@ body {
   height: 0;
   border: 1px solid #F79489;
   cursor: pointer;
+  background-color: #F79489;
 }
 
 .section__button-line::before {
