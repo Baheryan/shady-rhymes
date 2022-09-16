@@ -375,6 +375,10 @@ body {
   margin-bottom: 0;
 }
 
+.categories__text-wrapper {
+  margin-top: 109px;
+}
+
 .categories__section-container {
   margin-top: 45px;
 }
