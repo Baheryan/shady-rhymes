@@ -412,7 +412,7 @@ body {
 .section__paragraph.active {
   margin-bottom: 46px;
   opacity: 1;
-  max-height: 150px;
+  max-height: 100vh;
   transition: opacity 0.3s ease-in-out, max-height 0.8s ease, margin-bottom 0.8s ease-in-out;
   overflow: auto;
 }
