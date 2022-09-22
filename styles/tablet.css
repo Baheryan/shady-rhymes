@@ -149,4 +149,43 @@
     .service__offer__link {
         font-size: 18px;
     }
+
+    .categories-container {
+        padding: 0 80px;
+        margin-top: 215px;
+    }
+
+    .categories__paragraph {
+        line-height: 36px;
+        margin-top: 38px;
+    }
+
+    .categories__section-container {
+        margin-top: 29px;
+    }
+
+    .categories__section {
+        margin-bottom: 20px;
+    }
+
+    .section__heading {
+        font-size: 18px;
+    }
+
+    .section__paragraph {
+        line-height: 36px;
+    }
+
+    .section__paragraph.active {
+        margin-top: 25px;
+        margin-bottom: 49px;
+    }
+
+    .section__button-line, .section__button-line::before {
+        width: 16px;
+    }
+
+    .section__button-line::before {
+        top: 10px;
+    }
 }
