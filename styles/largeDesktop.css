@@ -35,4 +35,13 @@
         border: 2px solid #F79489;
         width: 2px;
     }
+
+    .trends__product-container {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .trends__product {
+        padding-bottom: 0;
+    }
 }
