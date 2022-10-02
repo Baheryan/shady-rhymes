@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Zara",
+        "category": "Leather",
+        "price": "IDR 795.000",
+        "description": "The beautiful Zara Chair can work in any setting; from contemporary to casual and even formal. Made in a beautiful black leather. These chairs are perfect for surrounding your dining table."   
+    },
+    
+    {
+        "name": "Gema Dining Chair",
+        "category": "Faux Leather",
+        "price": "IDR 595.000",
+        "description": "An angled seat and mid-height backrest create a leisurely atmosphere in the dining room. The Demi dining chair is made from a solid white oak frame with a comfortable vegan leather seat. Elevate the ambiance of your next soiree dinner with this contemporary piece of dining room furniture."
+    },
+    
+    {
+        "name": "Kingston Traditional",
+        "category": "Grey Leather",
+        "price": "IDR 2.555.000",
+        "description": "The ergonomic knee-tilt mechanism increases leg circulation by allowing the user to keep their feet on the floor when reclining. Instant lift seat height adjustment and adjustable tilt tension make it easy for any user to get comfortable"
+    },
+    
+    {
+        "name": "Rey Dining Chair",
+        "category": "Faux Leather",
+        "price": "IDR 1.500.00",
+        "description": "A beautiful modern design, the leather Rey Dining chair fits perfectly around any table style."
+    }
+]
