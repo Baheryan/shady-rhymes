@@ -511,3 +511,83 @@ body {
 .product__info-container span:last-child {
   margin-bottom: 0;
 }
+
+.reaction-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
+  margin-top: 71px;
+  align-items: center;
+}
+
+.reaction__heading {
+  margin: 0;
+  padding-top: 40px;
+}
+
+.reaction__review-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.review__heading {
+  color: #564E4E;
+  font-size: 14px;
+  padding-top: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.review__paragraph {
+  color: #564E4E;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.review__user-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.user__text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.user__name {
+  font-size: 14px;
+  margin-bottom: 11px;
+  color: #564E4E;
+  font-weight: 500;
+}
+
+.user__paragraph {
+  color: #564E4E;
+}
+
+.reaction__button-container {
+  display: none;
+}
+
+.reaction__button {
+  background-color: #FADCD9;
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.reaction__button:hover {
+  background-color: #F79489;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
