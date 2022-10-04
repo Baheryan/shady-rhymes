@@ -221,4 +221,39 @@
     .product__name, .product__category, .product__rating-container, .product__price {
         margin-bottom: 20px;
     }
+
+    .reaction-container {
+        padding: 0 80px;
+        margin-top: 282px;
+    }
+
+    .reaction__review-container {
+        margin-top: 120px;
+        gap: 70px;
+    }
+
+    .review__heading {
+        font-size: 24px;
+    }
+
+    .review__paragraph {
+        line-height: 36px;
+        margin-top: 20px;
+    }
+
+    .review__user-container {
+        margin-top: 60px;
+    }
+
+    .user__img {
+        width: 60px;
+    }
+
+    .user__name {
+        font-size: 18px;
+    }
+
+    .user__description {
+        font-size: 14px;
+    }
 }
