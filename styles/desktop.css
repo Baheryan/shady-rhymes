@@ -6,4 +6,15 @@
     .header__buttons__container {
         margin-right: 68px;
     }
+
+    .reaction__review-container {
+        flex-direction: row;
+    }
+
+    .reaction__button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 140px;
+        width: 70px;
+    }
 }
