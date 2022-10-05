@@ -256,4 +256,34 @@
     .user__description {
         font-size: 14px;
     }
+
+    .contact-container {
+        padding: 0 80px;
+    }
+
+    .contact__paragraph {
+        margin-top: 36px;
+        line-height: 36px;
+        margin-bottom: 44px;
+    }
+
+    .contact__letter {
+        font-size: 18px;
+    }
+
+    .contact__form {
+        height: 57px;
+        padding-left: 20px;
+        max-width: 374px;
+        margin-top: 47px;
+    }
+
+    .contact__input, .contact__input::placeholder {
+        font-size: 14px;
+    }
+
+    .contact__button {
+        width: 44px;
+        height: 44px;
+    }
 }

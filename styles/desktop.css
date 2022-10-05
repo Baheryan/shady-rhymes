@@ -17,4 +17,18 @@
         margin-top: 140px;
         width: 70px;
     }
+
+    .contact-container {
+        margin-top: 280px;
+        flex-direction: row;
+    }
+
+    .contact__img {
+        margin-right: 80px;
+        width: 50%;
+    }
+
+    .contact__info-container {
+        margin-top: 0;
+    }
 }
