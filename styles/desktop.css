@@ -31,4 +31,36 @@
     .contact__info-container {
         margin-top: 0;
     }
+
+    .footer {
+        background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
+        margin-top: 182px;
+        padding: 0px;
+    }
+
+    .footer__content-container {
+        flex-direction: row;
+        padding: 0 80px;
+        padding-top: 103px;
+    }
+
+    .footer__logo img {
+        width: 238px;
+    }
+
+    .footer__nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+
+    .footer-link__heading {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .footer__link-container li {
+        margin-bottom: 30px;
+    }
 }

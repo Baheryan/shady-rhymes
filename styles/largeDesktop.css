@@ -44,4 +44,12 @@
     .trends__product {
         padding-bottom: 0;
     }
+
+    .footer__logo img {
+        margin-right: 274px;
+    }
+
+    .footer__nav {
+        justify-content: space-between;
+    }
 }
