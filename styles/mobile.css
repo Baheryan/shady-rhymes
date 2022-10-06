@@ -685,7 +685,8 @@ body {
 .footer {
   background: linear-gradient(300.41deg, #000000 31.42%, #4B4B4B 117.78%);
   margin-top: 96px;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
