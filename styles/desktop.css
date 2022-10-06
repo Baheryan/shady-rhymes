@@ -35,7 +35,9 @@
     .footer {
         background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
         margin-top: 182px;
-        padding: 0px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 43px;
     }
 
     .footer__content-container {
