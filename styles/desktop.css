@@ -40,7 +40,8 @@
 
     .footer__content-container {
         flex-direction: row;
-        padding: 0 80px;
+        padding-left: 20px;
+        padding-right: 20px ;
         padding-top: 103px;
     }
 
