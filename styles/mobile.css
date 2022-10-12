@@ -515,7 +515,7 @@ body {
 .reaction-container {
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
+  padding: 40px 20px 93px;
   background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
   margin-top: 71px;
   align-items: center;
