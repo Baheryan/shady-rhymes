@@ -1,3 +1,5 @@
+"use strict";
+
 //header mobile menu animation
 
 const buttonMenu = document.getElementById("buttonMenu");
