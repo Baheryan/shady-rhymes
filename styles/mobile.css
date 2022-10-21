@@ -684,7 +684,6 @@ body {
 
 .contact__message {
   color: #ff0000;
-  padding-left: 5px;
 }
 
 .contact__message.valid {
