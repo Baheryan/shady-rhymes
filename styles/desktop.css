@@ -32,6 +32,10 @@
         margin-top: 0;
     }
 
+    .contact__message {
+        font-size: 16px;
+    }
+
     .footer {
         background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
         margin-top: 182px;
