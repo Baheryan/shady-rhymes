@@ -46,3 +46,43 @@ categoriesButton.forEach((categoriesButton, i) => {
         sectionParagraph[i].classList.toggle("active");
     });
 });
+
+//contact form validation
+
+const contactForm = document.querySelector(".contact__form");
+const contactInput = document.querySelector(".contact__input");
+const contactMessage = document.querySelector(".contact__message");
+
+const validation = () => {
+    const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    let inputValue = contactInput.value;
+    if(!pattern.test(inputValue)) {
+        contactMessage.classList.add("invalid");
+        contactMessage.classList.remove("valid");
+        contactMessage.innerHTML = "Email address is not valid";
+    }
+
+    else {
+        contactMessage.classList.remove("invalid");
+        contactMessage.classList.add("valid");
+        contactMessage.innerHTML = "Your email has been sent. Thanks for contacting!";
+        clearInput();
+    }
+
+    if(inputValue == "") {
+        contactMessage.innerHTML = "Email field cannot be empty";
+    }
+};
+
+contactForm.addEventListener("submit", element => {
+    element.preventDefault();
+    validation();
+});
+
+contactInput.addEventListener("focus", () => {
+    contactMessage.innerHTML = "";
+});
+
+const clearInput = () => {
+    contactInput.value = "";
+};
