@@ -61,11 +61,6 @@ body {
   align-items: center;
 }
 
-.header__link:nth-child(1):hover .header__chevron {
-  transform: rotate(180deg);
-  transition: transform 0.5s ease-in-out;
-}
-
 .header__chevron {
   margin-left: 3px;
   width: 12px;
